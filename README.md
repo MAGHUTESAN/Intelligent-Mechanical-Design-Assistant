@@ -55,9 +55,10 @@ HF_TOKEN=<your_hugging_face_token>
 
 **5. Run the Application: You can run the application using:**
 ```
-streamlit run app.py  # Replace `app.py` with the name of your main Python file
+streamlit run app.py
 
 ```
+**Note:** Replace `app.py` with the name of your main Python file
 # Usage
 1. Open the application in your web browser (usually at http://localhost:8501).
    
