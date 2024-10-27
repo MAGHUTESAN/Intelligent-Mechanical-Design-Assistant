@@ -53,7 +53,9 @@ HF_TOKEN=<your_hugging_face_token>
 ```
 **Note:** Make sure to replace <your_groq_api_key> and <your_hugging_face_token> with your actual API keys.
 
-**5. Run the Application: You can run the application using:**
+**5. Dataset Requirements:** The application requires a dataset consisting of **PDFs**, such as books and research papers. Place your PDF files in a directory named book within the project directory.
+
+**6. Run the Application:** You can run the application using:
 ```
 streamlit run app.py
 
