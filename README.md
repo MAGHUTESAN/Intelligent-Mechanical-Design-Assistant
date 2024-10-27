@@ -1,4 +1,4 @@
-# Intelligent-Mechanical-Design-Assistant
+  # Intelligent-Mechanical-Design-Assistant
 **Intelligent Mechanical Design Assistant (IMDA)** is an AI-powered tool for engineers to get precise answers from technical documents. It uses Groq, Llama3 models, FAISS embeddings, and Hugging Face for fast, document-based Q&amp;A. Ideal for quick design insights, it’s easy to use and planned for future CAD and simulation integrations.
 ![Chatbot Image](https://snapengage.com/wp-content/uploads/2020/11/bpos-survive-the-ai-revolution.jpg)
 
@@ -8,8 +8,11 @@ The Intelligent Mechanical Design Assistant is a Streamlit application that leve
 
 # Features
 **Document Ingestion:** Load and process PDF documents from a specified directory.
+
 **Contextual Querying:** Users can input questions, and the model provides answers based on the loaded documents.
+
 **Performance Metrics:** The application calculates and visualizes BLEU scores, precision, recall, and F1 scores for the generated answers.
+
 **Visual Analytics:** Several plots display trends and distributions of performance metrics over multiple queries.
 
 # Technologies Used
@@ -56,22 +59,32 @@ streamlit run app.py  # Replace `app.py` with the name of your main Python file
 
 ```
 # Usage
-Open the application in your web browser (usually at http://localhost:8501).
-Load your PDF documents into the specified "book" directory.
-Enter your query in the input field.
-Click the "Document Embedding" button to prepare the vector database.
-View the generated answer and associated metrics, including the BLEU score and various visualizations.
+1. Open the application in your web browser (usually at http://localhost:8501).
+   
+2. Load your PDF documents into the specified "book" directory.
+
+3. Enter your query in the input field.
+
+4. Click the "Document Embedding" button to prepare the vector database.
+
+5. View the generated answer and associated metrics, including the BLEU score and various visualizations.
 
 # Code Structure
 **app.py:** Main application script.
+
 **requirements.txt:** List of dependencies required to run the application.
+
 **book/:** Directory containing the PDF documents to be processed.
 
 # Acknowledgments
-Streamlit
-LangChain
-FAISS
-OpenAI
+
+- Streamlit
+  
+- LangChain
+  
+- FAISS
+  
+- OpenAI
 
 # Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
