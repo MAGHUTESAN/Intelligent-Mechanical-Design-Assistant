@@ -23,3 +23,30 @@ The Intelligent Mechanical Design Assistant is a Streamlit application that leve
 # Installation
 **1. Clone the Repository:**
 ```
+git clone <your_repository_url>
+cd <your_repository_name>
+```
+
+**2. Create a Virtual Environment (optional but recommended):**
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+**3. Install Dependencies: Create a requirements.txt file with the following content:**
+```
+pip install -r requirements.txt
+```
+
+**4. Set Up Environment Variables:** Create a .env file in the root directory of your project and add your API keys in the following format:
+```
+GROQ_API_KEY=<your_groq_api_key>
+HF_TOKEN=<your_hugging_face_token>
+```
+**Note:** Make sure to replace <your_groq_api_key> and <your_hugging_face_token> with your actual API keys.
+
+**5. Run the Application: You can run the application using:**
+```
+streamlit run app.py  # Replace `app.py` with the name of your main Python file
+
+```
