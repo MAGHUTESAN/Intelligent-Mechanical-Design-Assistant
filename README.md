@@ -7,26 +7,26 @@
 The Intelligent Mechanical Design Assistant is a Streamlit application that leverages advanced language models to assist users in querying and analyzing research papers in mechanical engineering. The application utilizes Groq and Hugging Face embeddings to create a vector database, enabling efficient document retrieval and context-based question answering. Additionally, it evaluates the model's responses using the BLEU score and provides various visualizations to analyze performance metrics.
 
 # Features
-**Document Ingestion:** Load and process PDF documents from a specified directory.
+-**Document Ingestion:** Load and process PDF documents from a specified directory.
 
-**Contextual Querying:** Users can input questions, and the model provides answers based on the loaded documents.
+-**Contextual Querying:** Users can input questions, and the model provides answers based on the loaded documents.
 
-**Performance Metrics:** The application calculates and visualizes BLEU scores, precision, recall, and F1 scores for the generated answers.
+-**Performance Metrics:** The application calculates and visualizes BLEU scores, precision, recall, and F1 scores for the generated answers.
 
-**Visual Analytics:** Several plots display trends and distributions of performance metrics over multiple queries.
+-**Visual Analytics:** Several plots display trends and distributions of performance metrics over multiple queries.
 
 # Technologies Used
-**Streamlit:** For building the interactive web application.
+-**Streamlit:** For building the interactive web application.
 
-**LangChain:** To facilitate the creation of language model chains and document loaders.
+-**LangChain:** To facilitate the creation of language model chains and document loaders.
 
-**FAISS:** For efficient similarity search and clustering of embeddings.
+-**FAISS:** For efficient similarity search and clustering of embeddings.
 
-**Matplotlib and Seaborn:** For data visualization.
+-**Matplotlib and Seaborn:** For data visualization.
 
-**OpenAI API:** For integrating with the language model.
+-**OpenAI API:** For integrating with the language model.
 
-**Python:** Programming language for developing the application.
+-**Python:** Programming language for developing the application.
 
 # Installation
 **1. Clone the Repository:**
@@ -70,11 +70,11 @@ streamlit run app.py  # Replace `app.py` with the name of your main Python file
 5. View the generated answer and associated metrics, including the BLEU score and various visualizations.
 
 # Code Structure
-**app.py:** Main application script.
+-**app.py:** Main application script.
 
-**requirements.txt:** List of dependencies required to run the application.
+-**requirements.txt:** List of dependencies required to run the application.
 
-**book/:** Directory containing the PDF documents to be processed.
+-**book/:** Directory containing the PDF documents to be processed.
 
 # Acknowledgments
 
