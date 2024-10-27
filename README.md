@@ -50,3 +50,24 @@ HF_TOKEN=<your_hugging_face_token>
 streamlit run app.py  # Replace `app.py` with the name of your main Python file
 
 ```
+# Usage
+Open the application in your web browser (usually at http://localhost:8501).
+Load your PDF documents into the specified "book" directory.
+Enter your query in the input field.
+Click the "Document Embedding" button to prepare the vector database.
+View the generated answer and associated metrics, including the BLEU score and various visualizations.
+
+# Code Structure
+**app.py:** Main application script.
+**requirements.txt:** List of dependencies required to run the application.
+**book/:** Directory containing the PDF documents to be processed.
+
+# Acknowledgments
+Streamlit
+LangChain
+FAISS
+OpenAI
+
+# Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
