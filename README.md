@@ -14,10 +14,15 @@ The Intelligent Mechanical Design Assistant is a Streamlit application that leve
 
 # Technologies Used
 **Streamlit:** For building the interactive web application.
+
 **LangChain:** To facilitate the creation of language model chains and document loaders.
+
 **FAISS:** For efficient similarity search and clustering of embeddings.
+
 **Matplotlib and Seaborn:** For data visualization.
+
 **OpenAI API:** For integrating with the language model.
+
 **Python:** Programming language for developing the application.
 
 # Installation
